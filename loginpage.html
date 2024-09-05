@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+#div1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#div2 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+
+.login {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-color: 1px black;
+}
+
+input[type="submit"]:hover {
+    background-color: #0095ff;
+}
+
+input[type="text"] {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+</style>
+</head>
+<body>
+<div id="div1">
+    <div id="div2">
+        <div class="login">
+            <h2>Login</h2>
+            <p>Please enter your credentials to login.</p>
+            <form>
+                <input type="text" placeholder="Username"></input>
+                <br><br>
+                <input type="text" placeholder="Password"></input><br><br>
+                <input type="submit" value="LOGIN">
+                <br><br>
+                <a id="10">Not registered?</a>
+                <a id="11" href="file:///C:/Users/samyu/.vscode/Learing/Learing/web%20development/singn%20up.html">Create an account</a>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
